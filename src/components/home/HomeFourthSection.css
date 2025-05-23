@@ -24,3 +24,18 @@
   color: white;
   background-color: black;
 }
+
+@media (max-width: 1200px) {
+  .fourth-section-container {
+    flex-direction: column;
+  }
+
+  .fourth-section-image-container,
+  .fourth-section-staff-container {
+    width: 100%;
+  }
+
+  .fourth-section-staff-container {
+    margin: 20px 0;
+  }
+}

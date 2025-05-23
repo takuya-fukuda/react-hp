@@ -14,23 +14,27 @@
 }
 
 .news-container ul {
-  border-top: none;
-  border-bottom: 1px solid #000;
-  border-left: none;
-  border-right: none;
+  width: 90%;
 }
 
 .news-container li {
   display: flex;
-  padding: 0 100px; /* 横線の幅調整 */
   border-top: 1px solid #000;
   border-bottom: none;
   border-left: none;
   border-right: none;
 }
 
+.news-container .li-last {
+  display: flex;
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+  border-left: none;
+  border-right: none;
+}
+
 .news-container li p {
-  padding: 0 10px;
+  padding: 0 20px;
 }
 
 .news-container li .new-info {

@@ -22,7 +22,7 @@ const HomeFirstSection = () => {
               <p className="new-info">新着情報</p>
               <p>2025/05/01 | 訪問出張カットのご案内</p>
             </li>
-            <li>
+            <li className="li-last">
               <p className="new-info">新着情報</p>
               <p>2025/05/01 | お知らせ</p>
             </li>
