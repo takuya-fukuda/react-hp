@@ -1,0 +1,28 @@
+.third-section-container {
+  background-image: url("/shop_img3.jpg");
+  padding-top: 2.5%;
+  padding-bottom: 5%;
+}
+
+.third-section-title {
+  text-align: center;
+}
+
+.third-section-menu-container {
+  margin: 0 10%;
+  background-color: white;
+  padding: 10px 10px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.third-section-menu-button {
+  display: flex;
+  justify-content: center;
+}
+
+.third-menu-button {
+  padding: 20px 40px 20px 40px;
+  color: white;
+  background-color: black;
+}

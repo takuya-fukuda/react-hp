@@ -1,0 +1,71 @@
+.second-section-container {
+  display: flex;
+  margin: 20px 30px;
+}
+
+.greeting-container {
+  width: 50%;
+  margin-top: auto; /* 一番下に配置 */
+  padding: 50px 0; /*パディングでちょっと下からなんPXか上に調整 */
+}
+
+.salon-image-container {
+  display: flex;
+  width: 50%;
+}
+
+.salon-box1 {
+  margin-top: 50px;
+  padding: 0 20px;
+  width: 50%; /* レスポンシブデザインの為に％で調整*/
+}
+
+.salon-box2 {
+  margin-bottom: 50px;
+  width: 50%;
+}
+
+.salon-image {
+  /* width: 300px;
+  height: 500px; */
+  width: 100%;
+  height: 100%;
+  padding: 0 20px;
+}
+
+/* スマホサイズ相当になったら縦並びに */
+@media (max-width: 1200px) {
+  /* 親コンテナを縦積みに */
+  .second-section-container {
+    flex-direction: column;
+  }
+
+  /* 各カラムを幅100%に */
+  .greeting-container,
+  .salon-image-container {
+    width: 100%;
+  }
+
+  /* 画像コンテナだけマージンを上に */
+  .salon-image-container {
+    margin-top: 20px;
+  }
+
+  /* 画像ボックスも全幅に */
+  .salon-box1 {
+    margin-top: 50px;
+
+    width: 50%; /* レスポンシブデザインの為に％で調整*/
+  }
+
+  .salon-box2 {
+    margin-bottom: 50px;
+    padding: 0 20px;
+    width: 50%;
+  }
+
+  /* 最後の箱だけ余白不要ならこう */
+  .salon-box2 {
+    margin-bottom: 50px;
+  }
+}

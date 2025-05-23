@@ -1,0 +1,9 @@
+/* .slider-container {
+  margin: 10px 0;
+} */
+
+.slider-20.slide-42 {
+  /* 直接 style に書いてもいいですが、CSSにまとめると管理しやすいです */
+  width: 100%;
+  height: 100%;
+}

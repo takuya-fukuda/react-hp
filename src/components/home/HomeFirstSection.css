@@ -1,0 +1,40 @@
+.first-section-container {
+  margin: 20px 30px;
+}
+
+.first-section-title {
+  text-align: center;
+}
+
+.news-container {
+  /* height: 200px; */
+  display: flex;
+  /* align-items: center; /* 縦方向の中央揃え */
+  /* justify-content: center; 横方向の中央揃え */
+}
+
+.news-container ul {
+  border-top: none;
+  border-bottom: 1px solid #000;
+  border-left: none;
+  border-right: none;
+}
+
+.news-container li {
+  display: flex;
+  padding: 0 100px; /* 横線の幅調整 */
+  border-top: 1px solid #000;
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
+}
+
+.news-container li p {
+  padding: 0 10px;
+}
+
+.news-container li .new-info {
+  padding: 0 10px;
+  color: white;
+  background-color: black;
+}
