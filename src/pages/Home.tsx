@@ -1,6 +1,8 @@
 import HomeFirstSection from "../components/home/HomeFirstSection";
+import HomeFiveSection from "../components/home/HomeFiveSection";
 import HomeFourthSection from "../components/home/HomeFourthSection";
 import HomeSecondSection from "../components/home/HomeSecondSection";
+import HomeSixSection from "../components/home/HomeSixSection";
 import HomeThirdSection from "../components/home/HomeThirdSection";
 import Header from "../components/layout/Header";
 import "./Home.css";
@@ -16,6 +18,8 @@ const Home = () => {
       <HomeSecondSection />
       <HomeThirdSection />
       <HomeFourthSection />
+      <HomeFiveSection />
+      <HomeSixSection />
     </div>
   );
 };

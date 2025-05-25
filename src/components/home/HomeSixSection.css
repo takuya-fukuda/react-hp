@@ -1,0 +1,29 @@
+.six-section-container {
+  background-image: url("/shop_img6.jpg");
+}
+.six-section-description-container {
+  padding: 2.5% 0;
+  text-align: center;
+}
+
+.six-section-reserve-container {
+  margin: 0 20%;
+}
+
+.six-section-reserve-container button {
+  width: 100%;
+}
+
+.six-section-contact-container {
+  display: flex;
+  margin: 1% 20%;
+  padding-bottom: 3%;
+}
+
+.six-section-contact-container button {
+  width: 50%;
+}
+
+.six-section-phone-button {
+  margin-left: 1%;
+}
