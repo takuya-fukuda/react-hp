@@ -12,11 +12,14 @@
 
 .six-section-reserve-container button {
   width: 100%;
+  background-color: #ad2f5b;
+  border-color: #ad2f5b;
+  color: white;
 }
 
 .six-section-contact-container {
   display: flex;
-  margin: 1% 20%;
+  margin: 1% 20% 0 20%;
   padding-bottom: 3%;
 }
 

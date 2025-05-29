@@ -1,6 +1,9 @@
+import { useState } from "react";
 import "./Header.css";
 
 const Header = () => {
+  const [open, setOpen] = useState(false);
+
   return (
     <div>
       <header>
@@ -15,7 +18,23 @@ const Header = () => {
           <li className="column">お知らせ</li>
           <li className="column-last">ご予約はこちら</li>
         </div>
+        <div className="hamburger">
+          <button className="hamburger-button" onClick={() => setOpen(!open)}>
+            三
+          </button>
+        </div>
       </header>
+      <div
+        className="hamnurger-menu"
+        style={{ display: open ? "none" : "block" }}
+      >
+        <li className="bar">ホーム</li>
+        <li className="bar">メニュー</li>
+        <li className="bar">店舗案内</li>
+        <li className="bar">スタッフ紹介</li>
+        <li className="bar">お知らせ</li>
+        <li className="bar">ご予約はこちら</li>
+      </div>
     </div>
   );
 };

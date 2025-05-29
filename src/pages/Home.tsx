@@ -4,6 +4,7 @@ import HomeFourthSection from "../components/home/HomeFourthSection";
 import HomeSecondSection from "../components/home/HomeSecondSection";
 import HomeSixSection from "../components/home/HomeSixSection";
 import HomeThirdSection from "../components/home/HomeThirdSection";
+import Footer from "../components/layout/Footer";
 import Header from "../components/layout/Header";
 import "./Home.css";
 
@@ -20,6 +21,7 @@ const Home = () => {
       <HomeFourthSection />
       <HomeFiveSection />
       <HomeSixSection />
+      <Footer />
     </div>
   );
 };

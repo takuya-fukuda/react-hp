@@ -41,3 +41,29 @@ header .select-container .column-last:hover {
   cursor: pointer; /* カーソルをポインターに */
   background-color: #a8a6a6; /* ホバー時の背景色 */
 }
+
+/* ハンバーガーメニュー */
+.hamburger {
+  display: none;
+  margin: 20px 0 0 auto;
+}
+.bar {
+  list-style: none; /* マーカーを消す */
+  display: flex; /* ← ここを追加 */
+  justify-content: center; /* ← 横中央 */
+  align-items: center; /* ← 縦中央 */
+  width: 100%;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  border: 1px solid #ccc; /* 外枠に薄いグレー線 */
+}
+
+/* 1000px以下の場合デザイン */
+@media (max-width: 1000px) {
+  header .select-container {
+    display: none;
+  }
+  .hamburger {
+    display: block;
+  }
+}

@@ -20,4 +20,4 @@ CSS は ChakraUI とか使えば楽ですが、サイトが大きくないのと
 ## 画面イメージ
 
 ![サイトイメージ](./assets/site_sample1.png)
-![サイトイメージ2](./assets/site_sample1.png)
+![サイトイメージ2](./assets/site_sample2.png)
