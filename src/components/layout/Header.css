@@ -22,6 +22,13 @@ header .select-container .column {
   background-color: rgb(255, 255, 255);
   /* border: 1px solid #ccc; 外枠に薄いグレー線 */
 }
+
+/* カラムのリンク */
+header .select-container .column a {
+  color: black; /* リンクの色 */
+  text-decoration: none; /* 下線を消したい場合 */
+}
+
 header .select-container .column-last {
   display: flex; /* ← ここを追加 */
   justify-content: center; /* ← 横中央 */
@@ -34,7 +41,14 @@ header .select-container .column-last {
 
 header .select-container .column:hover {
   cursor: pointer; /* カーソルをポインターに */
-  background-color: #3fe84a; /* ホバー時の背景色 */
+  background-color: black; /* ホバー時の背景色 */
+  color: white;
+}
+
+header .select-container .column a:hover {
+  cursor: pointer; /* カーソルをポインターに */
+  background-color: black; /* ホバー時の背景色 */
+  color: white;
 }
 
 header .select-container .column-last:hover {
@@ -56,6 +70,11 @@ header .select-container .column-last:hover {
   background-color: rgb(0, 0, 0);
   color: white;
   border: 1px solid #ccc; /* 外枠に薄いグレー線 */
+}
+
+.bar a {
+  color: white; /* リンクの色 */
+  text-decoration: none; /* 下線を消したい場合 */
 }
 
 /* 1000px以下の場合デザイン */

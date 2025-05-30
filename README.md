@@ -21,3 +21,12 @@ CSS は ChakraUI とか使えば楽ですが、サイトが大きくないのと
 
 ![サイトイメージ](./assets/site_sample1.png)
 ![サイトイメージ2](./assets/site_sample2.png)
+
+## ルータ方式
+
+https://qiita.com/Taira0222/items/883aa7d22cbf0d3a08de
+バージョン一緒なのでこれでやった
+
+```
+npm install react-router-dom
+```
