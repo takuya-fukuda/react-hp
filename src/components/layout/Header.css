@@ -41,14 +41,8 @@ header .select-container .column-last {
 
 header .select-container .column:hover {
   cursor: pointer; /* カーソルをポインターに */
-  background-color: black; /* ホバー時の背景色 */
-  color: white;
-}
-
-header .select-container .column a:hover {
-  cursor: pointer; /* カーソルをポインターに */
-  background-color: black; /* ホバー時の背景色 */
-  color: white;
+  text-decoration: underline; /* ホバー時の下線 */
+  text-decoration-color: #a8a6a6;
 }
 
 header .select-container .column-last:hover {

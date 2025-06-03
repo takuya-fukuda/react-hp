@@ -15,6 +15,13 @@
   background-color: #ad2f5b;
   border-color: #ad2f5b;
   color: white;
+  padding: 20px 0px;
+}
+.six-section-reserve-container button:hover {
+  cursor: pointer; /* カーソルをポインターに */
+  background-color: black; /* ホバー時の背景色 */
+  border-color: black;
+  color: white;
 }
 
 .six-section-contact-container {
@@ -25,8 +32,33 @@
 
 .six-section-contact-container button {
   width: 50%;
+  padding: 20px 0;
+}
+.six-section-contact-container button:hover {
+  cursor: pointer; /* カーソルをポインターに */
+  background-color: black; /* ホバー時の背景色 */
+  color: white;
 }
 
 .six-section-phone-button {
   margin-left: 1%;
+}
+
+.six-section-phone-button:hover {
+  cursor: pointer; /* カーソルをポインターに */
+  background-color: black; /* ホバー時の背景色 */
+  color: white;
+}
+
+@media (max-width: 1200px) {
+  .six-section-contact-container {
+    flex-direction: column;
+  }
+  .six-section-phone-button {
+    margin-top: 2%;
+    margin-left: 0;
+  }
+  .six-section-contact-container button {
+    width: 100%;
+  }
 }
