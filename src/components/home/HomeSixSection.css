@@ -1,9 +1,15 @@
 .six-section-container {
-  background-image: url("/shop_img6.jpg");
+  /* background-image: url("/shop_img6.jpg"); */
+  background: linear-gradient(0deg, rgb(0 0 0 / 70%), rgb(0 0 0 / 70%)),
+    url("/shop_img6.jpg") no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
 }
 .six-section-description-container {
   padding: 2.5% 0;
   text-align: center;
+  color: white;
 }
 
 .six-section-reserve-container {

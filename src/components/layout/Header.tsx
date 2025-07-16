@@ -29,12 +29,13 @@ const Header = () => {
           </li>
           <li className="column-last">ご予約はこちら</li>
         </div>
-        <div className="hamburger">
-          <button className="hamburger-button" onClick={() => setOpen(!open)}>
-            三
-          </button>
-        </div>
       </header>
+      <div className="hamburger">
+        <button className="hamburger-button" onClick={() => setOpen(!open)}>
+          三
+        </button>
+        メニュー
+      </div>
       <div
         className="hamnurger-menu"
         style={{ display: open ? "none" : "block" }}

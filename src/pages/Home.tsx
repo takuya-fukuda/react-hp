@@ -6,12 +6,14 @@ import HomeSixSection from "../components/home/HomeSixSection";
 import HomeThirdSection from "../components/home/HomeThirdSection";
 import Footer from "../components/layout/Footer";
 import Header from "../components/layout/Header";
+import Header_tailwind from "../components/layout/Header_tailwind";
 import "./Home.css";
 
 const Home = () => {
   return (
     <div>
-      <Header />
+      {/* <Header /> */}
+      <Header_tailwind />
       <div className="slider-container">
         <img src="/main.jpg" alt="Main Slider" className="slider-20 slide-42" />
       </div>

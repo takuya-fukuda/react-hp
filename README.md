@@ -30,3 +30,25 @@ https://qiita.com/Taira0222/items/883aa7d22cbf0d3a08de
 ```
 npm install react-router-dom
 ```
+
+## Tailwindcss のセットアップ
+
+パッケージのインストールと config ファイルの作成
+
+```
+npm install -D tailwindcss@^3.4.0 postcss autoprefixer
+npx tailwindcss init -p
+```
+
+tailwind.config.js に下記を追加
+
+```
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+};
+```

@@ -8,6 +8,15 @@ header h1 {
   padding: 0 20px;
 }
 
+header .logo-container {
+  justify-content: center; /* ← 横中央 */
+  align-items: center; /* ← 縦中央 */
+}
+
+header .logo-container img {
+  width: 80%;
+}
+
 /*右寄せ*/
 header .select-container {
   display: flex;
@@ -53,7 +62,10 @@ header .select-container .column-last:hover {
 /* ハンバーガーメニュー */
 .hamburger {
   display: none;
-  margin: 20px 0 0 auto;
+}
+.hamburger button {
+  background-color: black;
+  color: white;
 }
 .bar {
   list-style: none; /* マーカーを消す */
@@ -77,6 +89,8 @@ header .select-container .column-last:hover {
     display: none;
   }
   .hamburger {
-    display: block;
+    display: flex;
+    align-items: center;
+    gap: 8px;
   }
 }
